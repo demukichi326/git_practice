@@ -7,6 +7,7 @@
 - git_practiceディレクトリの作成
    - mkdir git_practice ディレクトリの作成
    - cd gitpractice 作成したディレクトリにターミナルで入る
+   - git init 対応するリポジトリを作成する
 - README.mdファイルの作成
    - touch README.md ファイルを作成
 - リポジトリの作成
@@ -15,7 +16,7 @@
    - git add README.md
 - README.mdファイルをローカルリポジトリにコミットする
    - git commit -m"first_commit" 　コミット名を入力
-   - git log c　ommitされた内容の確認
+   - git log 　commitされた内容の確認
 - githubにリポジトリを作成　git_practice
 - githubにこれまで作成したファイルをpushする
    - git remote add origin プッシュするURL 　pushするURLを指定する

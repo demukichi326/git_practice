@@ -1,0 +1,22 @@
+- ターミナルを起動しgitの初期設定
+   - git config --global user.name '○○○○' 名前を入力
+      - git config --global user.email '○○○○@gmail.com' アドレス名を入力
+- itce_practiceディレクトリ作成
+   - mkdir itce_practice ディレクトリ名を入力
+      - cd itce_practice 作成したディレクトリにターミナルで入る
+- git_practiceディレクトリの作成
+   - mkdir git_practice ディレクトリの作成
+      - cd gitpractice 作成したディレクトリにターミナルで入る
+- README.mdファイルの作成
+   - touch README.md ファイルを作成
+- リポジトリの作成
+   - git init リポジトリの作成
+- README.mdファイルの内容を書き込みstage
+   - git add README.md
+- README.mdファイルをローカルリポジトリにコミットする
+   - git commit gitの初期化からgithubにpushする流れを箇条書き
+      - git log commitされた内容の確認
+- githubにリポジトリを作成　git_practice
+- githubにこれまで作成したファイルをpushする
+   - git remote add origin プッシュするURL pushするURLを指定する
+      - git push -u origin master pushする

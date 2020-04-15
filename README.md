@@ -14,9 +14,9 @@
 - README.mdファイルの内容を書き込みstage
    - git add README.md
 - README.mdファイルをローカルリポジトリにコミットする
-   - git commit gitの初期化からgithubにpushする流れを箇条書き
-   - git log commitされた内容の確認
+   - git commit -m"first_commit" 　コミット名を入力
+   - git log c　ommitされた内容の確認
 - githubにリポジトリを作成　git_practice
 - githubにこれまで作成したファイルをpushする
-   - git remote add origin プッシュするURL pushするURLを指定する
-   - git push -u origin master pushする
+   - git remote add origin プッシュするURL 　pushするURLを指定する
+   - git push origin master 　pushする
